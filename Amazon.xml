@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="Iphone 13 pro" value ="Apple iPhone 13 Pro Max (128GB) - Sierra Blue">
+  </parameter>
+    <classes>
+      <class name="Org.gittest.sample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
